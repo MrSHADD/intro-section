@@ -14,10 +14,10 @@ export default function Hero(){
                 <button className="btn--learn">Learn more</button>
 
                 <div className="watermarks">
-                    <img src="./images/client-databiz.svg"/>
-                    <img src="./images/client-audiophile.svg"/>
-                    <img src="./images/client-meet.svg"/>
-                    <img src="./images/client-maker.svg"/>
+                    <img src="./images/client-databiz.svg" alt="databiz"/>
+                    <img src="./images/client-audiophile.svg" alt="audiophile"/>
+                    <img src="./images/client-meet.svg" alt="meet"/>
+                    <img src="./images/client-maker.svg" alt="maker"/>
                 </div>
             </div>
             <img src="./images/image-hero-desktop.png" className="img--hero" alt="Tech bro"/>
