@@ -6,10 +6,10 @@ export default function Navbar(){
     return(
         
         <nav class="navbar">
-            <a href="#"><img src="./images/logo.svg" className="img--logo"/></a>
+            <a href="#"><img src="./images/logo.svg" className="img--logo" alt="logo"/></a>
             <div className="nav-menu">
             <ul className="nav-menu-left">
-            <div class="dropdown">
+            <niv class="dropdown">
                 <li className="nav-item">
                     <a href="#" class="nav-link">Features<img src="./images/icon-arrow-down.svg" className="arrow-down" alt="arrowdown"/></a>
                     <div class="dropdown-content">
@@ -19,8 +19,8 @@ export default function Navbar(){
                         <a href="#"><img src="./images/icon-planning.svg" className="img-db-icon" alt="Planning"/>Planning</a>
                     </div>
                 </li>
-            </div>
-            <div className="dropdown-com">
+            </niv>
+            <niv className="dropdown-com">
                 <li className="nav-item">
                     <a href="#" class="nav-link">Company<img src="./images/icon-arrow-down.svg" className="arrow-down" alt="arrowdown"/></a>
                     <div className="dropdown-content-com">
@@ -29,7 +29,7 @@ export default function Navbar(){
                         <a href="#">Blog</a>
                     </div>
             </li>
-            </div>
+            </niv>
                 <li className="nav-item">
                     <a href="#" class="nav-link">Carrers</a>
                 </li>
